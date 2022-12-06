@@ -1,0 +1,88 @@
+.promo {
+    position: relative;
+    min-height: 950px;
+    padding-bottom: 80px;
+    background: url('../img/masthead.jpg') center (center/cover) no-repeat,  	rgb(144, 144, 144);
+    background-blend-mode: multiply;
+    overflow-x: hidden;
+    &__wrapper {
+        display: block;
+        margin-bottom: 60px;
+    }
+    &__descr {
+        margin-top: 114px;
+        margin-bottom: -70px;
+        color: #fff;
+        text-align: center;
+        h1 {
+            font-size: 4.75rem;
+            font-family: 'Montserrat';
+        }
+    }
+    &__btn {
+        width: 350px;
+        margin: 0 auto;
+        .button {
+            width: 100px;
+            height: 70px;
+            border-radius: 30px;
+            background-color: rgb(25, 25, 25, 0);
+            border-width: 3px;
+            border-color: $second-color;
+            color: #dedddb;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: 'Open Sans';
+            &:hover {
+                background: $second-color;
+                transition: all 0.3s linear;
+                -webkit-transition: all 0.3s linear;
+                -moz-transition: all 0.3s linear;
+                border-color:#dedddb;
+                color:#fff;
+            }
+            &_main {
+                width: 343px;
+                margin-top: 85px;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 16px;
+                font-family: 'Open Sans';
+            }
+        }
+    } 
+    &__icons {
+        margin-top: 36px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__icon {
+        text-align: center;
+        width: 108px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        color:#ffffff;
+        font-family: 'Open Sans';
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            width: 55%;
+        }
+    }
+    &__link {
+        color:#ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 18px;
+        a {
+            color:#ffffff;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+    }
+}

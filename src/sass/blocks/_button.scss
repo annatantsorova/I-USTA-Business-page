@@ -1,0 +1,60 @@
+.button {
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: rgb(25, 25, 25, 0);
+    border-width: 3px;
+    border-color: $second-color;
+    color: #dedddb;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    &:hover {
+        background: $second-color;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        border-color:#dedddb;
+    }
+    &_main {
+        width: 343px;
+        margin-top: 85px;
+        color:#dedddb;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 16px;
+        font-family: 'Open Sans';
+        }
+    &_submit {
+        width: 70%;
+        height: 55px;
+        font-size: 16px;
+        color:$second-color;
+        font-family: 'Open Sans';
+        &:hover {
+            transition: all 0.3s linear;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s linear;
+            border-color:#dedddb;
+            color: #fff;
+        }
+    }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
+        font-family: 'Open Sans';
+        margin-left: 60px;
+        margin-top: 15px;
+        color: #212529;
+        &:hover {
+            background: $second-color;
+            transition: all 0.3s linear;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s linear;
+            border-color:#dedddb;
+            color: #fff;
+        }
+    }
+}

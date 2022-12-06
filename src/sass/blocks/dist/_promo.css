@@ -1,0 +1,11 @@
+.promo {
+  position: relative;
+  margin-top: 30px;
+}
+.promo__block {
+  display: flex;
+  justify-content: space-between;
+}
+.promo__descr {
+  font-family: "Montserrat";
+}
