@@ -1,11 +1,54 @@
 .promo {
   position: relative;
-  margin-top: 30px;
+  min-height: 950px;
+  padding-bottom: 80px;
+  background: url("../img/masthead.jpg") center center/cover no-repeat, #909090;
+  background-blend-mode: multiply;
+  overflow-x: hidden;
 }
-.promo__block {
+.promo__wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .promo__descr {
+  margin-top: 114px;
+  margin-bottom: 36px;
+  color: #fff;
+  text-align: center;
+}
+.promo__descr h1 {
+  font-size: 4.75rem;
   font-family: "Montserrat";
+}
+.promo__icons {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.promo__icon {
+  text-align: center;
+  width: 108px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  font-family: "Open Sans";
+}
+.promo__icon img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 55%;
+}
+.promo__link {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 18px;
+}
+.promo__link a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: underline;
 }

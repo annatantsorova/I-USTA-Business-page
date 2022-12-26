@@ -1,0 +1,40 @@
+@media (max-width: 991px)
+{   
+    .header {
+        .menu {
+        justify-content: space-around;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 60vh;
+        padding: 20px 15px;
+        background-color: rgba(0, 0, 0, .8);
+        transition: 0.6s all;
+            &__active {
+                left: 0;
+            }
+            &__item {
+                padding-right: 0;
+                border: none;
+                margin: 10px 0;
+            }
+            &__link {
+                font-size: 16px;
+            }
+       }
+    }
+}
+@media (max-width: 460px) 
+{
+    .promo {
+        &__descr {
+            h1 {
+                font-size: 4rem;
+            }
+        }
+    }
+}

@@ -10,7 +10,17 @@ $(document).ready(function () {
         }
     }
     );
-    console.log('script loaded');
+    
+    document.addEventListener('DOMContentLoaded', function() {
+
+        $('#btn').click(function() {
+          $('#modal').modal('show');
+        });
+  
+      });
+
+
+      
 
     $('[data-modal=consultation]').on('click', function () {
         $('.overlay, #consultation').fadeIn('slow');
